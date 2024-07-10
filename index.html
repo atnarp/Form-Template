@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title"> Registration Form </h1>
+        <form class="form-el">
+
+            <div class="linedata">
+                <div class="info">
+                    <label> FIRST NAME </label><br>
+                    <input class="data" type="text" placeholder="Enter your first name">
+                </div>
+                <div class="info">
+                    <label> LAST NAME </label><br>
+                    <input class="data" type="text" placeholder="Enter your second name">
+                </div>
+            </div>
+
+            <div class="linedata">
+                <div class="info">
+                    <label> USERNAME </label><br>
+                    <input class="data" type="text" placeholder="Enter your username">
+                </div>
+                <div class="info">
+                    <label> PASSWORD </label><br>
+                    <input class="data" type="text" placeholder="Set a password">
+                </div>
+            </div>
+
+            <div class="linedata">
+                <div class="info">
+                    <label> EMAIL </label><br>
+                    <input class="data" type="text" placeholder="Example: abcd@xyz.com">
+                </div>
+                <div class="info">
+                    <label> PHONE NO </label><br>
+                    <input class="data" type="text" placeholder="Example: +880XXXXXXXXXX ">
+                </div>
+            </div>
+
+
+            <div class="linedata">
+                <div class="info-gender">
+
+                    <label class="gg"> GENDER: </label>
+                    <div class="spbclassless">
+                        <input type="radio" id="vehicle1" name="genderS" value="Bike">
+                        <label for="vehicle1"> Male</label>
+                    </div>
+                    <div class="spbclassless">
+                        <input type="radio" id="vehicle2" name="genderS" value="Car">
+                        <label for="vehicle2"> Female</label>
+                    </div>
+                    <div class="spbclassless">
+                        <input type="radio" id="vehicle3" name="genderS" value="Boat">
+                        <label for="vehicle3"> Prefer not to say</label>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="terms">
+                <input type="checkbox" id="checkk"> <label> I accept <span style="color: red;"><u>terms and conditions</u></span>.
+                </label>
+            </div>
+            <div class="buttonS">
+                <button class="button-el" onclick="loading()"> REGISTER </button>
+            </div>
+        </form>
+
+    </div>
+    <script src="index.js"> </script>
+
+</body>
+
+</html>
